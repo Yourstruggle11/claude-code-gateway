@@ -1,0 +1,15 @@
+# Public model aliases exposed by the local gateway.
+model_list:
+  - model_name: gemini-3.1-flash-lite
+    litellm_params:
+      model: gemini/gemini-3.1-flash-lite
+      api_key: os.environ/GEMINI_API_KEY
+
+# Claude Code can send Anthropic-specific parameters that another provider does
+# not implement. LiteLLM drops only those unsupported parameters.
+litellm_settings:
+  drop_params: true
+
+# Never put the actual token in this file. `claude-gateway setup` creates it.
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY

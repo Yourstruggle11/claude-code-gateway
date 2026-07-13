@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390" role="img" aria-labelledby="title desc">
+  <title id="title">Claude Code Gateway quick start</title>
+  <desc id="desc">A terminal illustration showing setup, diagnostics, and launch commands succeeding.</desc>
+  <rect width="1000" height="390" rx="16" fill="#111827"/>
+  <rect width="1000" height="48" rx="16" fill="#1f2937"/>
+  <rect y="32" width="1000" height="16" fill="#1f2937"/>
+  <circle cx="28" cy="24" r="7" fill="#f87171"/>
+  <circle cx="52" cy="24" r="7" fill="#fbbf24"/>
+  <circle cx="76" cy="24" r="7" fill="#34d399"/>
+  <text x="500" y="30" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" fill="#d1d5db">claude-code-gateway</text>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="17">
+    <text x="28" y="86" fill="#60a5fa">$</text><text x="50" y="86" fill="#f9fafb">./scripts/setup.sh</text>
+    <text x="28" y="120" fill="#9ca3af">Gemini API key (input hidden): ••••••••••••</text>
+    <text x="28" y="154" fill="#34d399">Configured .env (secrets were not displayed).</text>
+    <text x="28" y="202" fill="#60a5fa">$</text><text x="50" y="202" fill="#f9fafb">source .venv/bin/activate</text>
+    <text x="28" y="236" fill="#60a5fa">(.venv) $</text><text x="132" y="236" fill="#f9fafb">claude-gateway doctor</text>
+    <text x="28" y="270" fill="#34d399">[OK] Environment · Configuration · Models · LiteLLM · Claude Code</text>
+    <text x="28" y="318" fill="#60a5fa">(.venv) $</text><text x="132" y="318" fill="#f9fafb">claude-gateway start</text>
+    <text x="28" y="352" fill="#c4b5fd">Starting LiteLLM on http://127.0.0.1:4000 (Ctrl+C to stop).</text>
+  </g>
+</svg>

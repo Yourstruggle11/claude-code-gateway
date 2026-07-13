@@ -1,0 +1,11 @@
+model_list:
+  - model_name: openrouter-coding
+    litellm_params:
+      model: openrouter/<publisher>/<model-id>
+      api_key: os.environ/OPENROUTER_API_KEY
+
+litellm_settings:
+  drop_params: true
+
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY

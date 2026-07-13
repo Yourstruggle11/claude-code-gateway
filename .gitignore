@@ -1,0 +1,36 @@
+# Secrets and local overrides
+.env
+.env.*
+!.env.example
+config.local.yaml
+.claude/settings.local.json
+.claude/settings.local.json.bak
+.claude/settings.local.json.tmp
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+pytest-cache-files-*/
+.pytest-tmp-*/
+.test-*/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+build/
+dist/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# LiteLLM local state and logs
+*.log
+litellm.db
+proxy.db

@@ -1,0 +1,13 @@
+model_list:
+  - model_name: azure-coding
+    litellm_params:
+      model: azure/<deployment-name>
+      api_base: os.environ/AZURE_API_BASE
+      api_key: os.environ/AZURE_API_KEY
+      api_version: os.environ/AZURE_API_VERSION
+
+litellm_settings:
+  drop_params: true
+
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY

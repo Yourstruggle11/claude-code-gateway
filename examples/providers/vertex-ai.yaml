@@ -1,0 +1,12 @@
+model_list:
+  - model_name: vertex-coding
+    litellm_params:
+      model: vertex_ai/<model-id>
+      vertex_project: os.environ/VERTEXAI_PROJECT
+      vertex_location: os.environ/VERTEXAI_LOCATION
+
+litellm_settings:
+  drop_params: true
+
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY
