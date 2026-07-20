@@ -23,7 +23,7 @@ classifiers = [
   "Topic :: Software Development :: Libraries :: Application Frameworks",
 ]
 dependencies = [
-  "litellm[proxy]==1.91.0",
+  "litellm[proxy]==1.93.0",
   "python-dotenv==1.2.2",
   "PyYAML>=6.0.2,<7",
 ]
